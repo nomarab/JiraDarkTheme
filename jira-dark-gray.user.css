@@ -7,9 +7,9 @@
 @preprocessor default
 
 ==/UserStyle== */
-@-moz-document regexp(".*.atlassian.net/jira.*"),
-regexp(".*.atlassian.net/browse.*"),
-regexp(".*.atlassian.net/secure.*") {
+@-moz-document regexp(".*.jira.*"),
+regexp(".*.jira.*"),
+regexp(".*.jira.*") {
     :root {
         --ds-background-default: #333;
         --ds-background-neutral: rgba(255, 255, 255, .08);
